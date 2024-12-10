@@ -1,0 +1,831 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.img1{
+    cursor: pointer;
+}
+.img1:hover
+{
+    cursor: pointer;
+}
+.imbh{
+    background-image: url(bg.jpg);
+}
+.imbm{
+    background-image: url(mont.jpg);
+}
+.imb{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+header {
+    background-color: #2b2a2a;
+    color: white;
+    padding: 1rex;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 100;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    position: relative;
+    font-size: large;
+}
+
+nav ul li a {
+    color: rgb(202, 194, 194);
+    text-decoration: none;
+}
+
+.du{
+    list-style-type: none;
+    padding: 100;
+}
+.dul{
+    display:flex;
+    flex-direction: column;
+    align-items:end;
+    margin: 0 1rem;
+    font-size:large;
+}
+.dul1{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 0 1rem;
+    font-size: large;
+}
+.dpc {
+    display: none;
+    position: absolute;
+    background-color: #2b2a2a;
+    min-width: 160px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+.img1{
+    float: left;
+}
+.dpc a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+
+.dpc a:hover{
+    background-color: #3f3f3f;
+}
+
+.dp:hover .dpc{
+    display: block;
+}
+
+nav a:hover{
+    color: rgb(181, 255, 255);
+}
+
+section {
+    color: #ffffff;
+}
+
+.rt{
+    text-align: center;
+    color:azure;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+.rte{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 1rem;
+    transition: text-shadow 0.3s ease;
+}
+.an{
+    color: rgba(18, 184, 142, 0.658);
+}
+.an:hover {
+    text-shadow: 0 0 10px rgba(13, 182, 140, 0.8), 0 0 20px rgba(13, 182, 140, 0.6), 0 0 30px rgba(13, 182, 140, 0.4);
+}
+
+.ge{
+    color: rgba(228, 204, 95, 0.514);
+}
+.ge:hover{
+    text-shadow: 0 0 10px rgba(228, 204, 95, 0.8), 0 0 20px rgba(228, 204, 95, 0.6), 0 0 30px rgba(228, 204, 95, 0.4);
+}
+.el{
+    color: rgba(207, 117, 230, 0.432);
+}
+.el:hover{
+    text-shadow: 0 0 10px rgba(207, 117, 230, 0.8), 0 0 20px rgba(207, 117, 230, 0.6), 0 0 30px rgba(207, 117, 230, 0.4);
+}
+.den{
+    color: rgba(171, 241, 169, 0.493);
+}
+.den:hover{
+    text-shadow: 0 0 10px rgba(171, 241, 169, 0.8), 0 0 20px rgba(171, 241, 169, 0.6), 0 0 30px rgba(171, 241, 169, 0.4);
+}
+.hyd{
+    color: rgba(83, 195, 240, 0.555);
+}
+.hyd:hover{
+    text-shadow: 0 0 10px rgba(83, 195, 240, 0.8), 0 0 20px rgba(83, 195, 240, 0.6), 0 0 30px rgba(83, 195, 240, 0.4);
+}
+.py{
+    color: rgba(240, 159, 83, 0.541);
+}
+.py:hover{
+    text-shadow: 0 0 10px rgba(240, 159, 83, 0.8), 0 0 20px rgba(240, 159, 83, 0.6), 0 0 30px rgba(240, 159, 83, 0.4);
+}
+.cr{
+    color: rgba(123, 163, 238, 0.658);
+}
+.cr:hover{
+    text-shadow: 0 0 10px rgba(123, 163, 238, 0.8), 0 0 20px rgba(123, 163, 238, 0.6), 0 0 30px rgba(123, 163, 238, 0.4);
+}
+.mons{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(mon.jpg) no-repeat center/cover;
+    filter: grayscale(100%);
+}
+.liyue{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(liy.jpg) no-repeat center/cover;
+    filter: grayscale(100%);
+}
+.inz{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Inazuma.jpg) no-repeat top/cover;
+    filter: grayscale(100%);
+}
+.sumeru{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(sumeru.jpg) no-repeat top/cover;
+    filter: grayscale(100%);
+}
+.fontaine{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(font.jpg) no-repeat top/cover;
+    filter: grayscale(100%);
+}
+
+.mons:hover{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(mon.jpg) no-repeat center/cover;
+    filter: grayscale(0%);
+}
+.liyue:hover{
+    background:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(liy.jpg) no-repeat center/cover;
+    filter: grayscale(0%);
+}
+.inz:hover{
+    background:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(Inazuma.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+.sumeru:hover{
+    background:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(sumeru.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+.fontaine:hover{
+    background:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(font.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+
+.anemo{
+    background:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(anemo.jpg) no-repeat top/cover;
+    
+}
+.pyro{
+    background:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(pyro.jpg) no-repeat top/cover;
+}
+.cryo{
+    background:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(cryo.jpg) no-repeat top/cover;
+ 
+}
+.dendro{
+    background:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(dendro.jpg) no-repeat top/cover;
+    
+}
+.hydro{
+    background:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(hydro.jpg) no-repeat top/cover;
+
+}
+.electro{
+    background:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(electro.jpg) no-repeat top/cover;
+}
+.geo{
+    background:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(geo.jpg) no-repeat top/cover;
+    
+}
+
+.anemo:hover{
+    background:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(anemo.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+.pyro:hover{
+    background:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(pyro.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+.cryo:hover{
+    background:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(cryo.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+.dendro:hover{
+    background:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(dendro.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+.hydro:hover{
+    background:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(hydro.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+.electro:hover{
+    background:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(electro.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+.geo:hover{
+    background:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(geo.jpg) no-repeat top/cover;
+    filter: grayscale(0%);
+}
+
+.grad{
+    height: 30%;
+    padding: 2%;
+}
+
+section a:hover div{
+    text-decoration-line:none;
+    border: 5px solid white ;
+    transition: border-color ease;
+}
+
+section a{
+    text-decoration: none;
+}
+
+
+.rightm, .leftm, .rightl, .leftl, .righti, .lefti, .rights, .lefts, .rightf, .leftf{
+    flex: 1;
+    padding: 20px;
+}
+
+/*mons*/
+.rightm{
+    text-align: left;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    color:#48dfbe;
+    border: #ffffff dashed;
+   
+
+}
+.leftm{
+    background-image: url(venti.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: top;
+    width: 100%;
+    display: flex;
+}
+
+/*liyue*/
+.rightl{
+    text-align: left;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    color:#e7b13dec;
+    border: #ffffff dashed;
+   
+
+}
+.leftl{
+    background-image: url(zhongli.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: top;
+    width: 100%;
+    display: flex;
+}
+
+/*inz*/
+.righti{
+    text-align: left;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    color: #d776f0e8;
+   
+   
+
+}
+.lefti{
+    background-image: url(ei.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: top;
+    width: 100%;
+    display: flex;
+}
+
+/*sumeru*/
+.rights{
+    text-align: left;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    color: #82da67e8;
+   
+   
+
+}
+.lefts{
+    background-image: url(nahida.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: top;
+    width: 100%;
+    display: flex;
+}
+
+/*fontaine*/
+.rightf{
+    text-align: left;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    color: #67b9dae8;
+   
+   
+
+}
+.leftf{
+    background-image: url(furina.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: top;
+    width: 100%;
+    display: flex;
+}
+
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    background-color: #3f3f3f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/*parallex start*/
+
+
+:root{
+    --color: #333; 
+}
+
+
+
+/*mons*/
+
+
+
+.container1m {
+  text-align: center;
+  display: flex;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(monds.png);
+  background-size: cover;
+  background-position: center;
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+.container2m {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(venti.png);
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.containerm {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 0;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image:url(mon.jpg);
+    background-attachment: fixed;
+}
+
+
+/*liyue*/
+
+
+
+.container1l {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(liyue.png);
+    background-size: cover;
+    background-position: top;  
+  /*  this is where the magic happens:  */
+    background-attachment: fixed;
+}
+.container2l {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(zhongli.png);
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.containerl {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 0;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image:url(liy.jpg);
+    background-attachment: fixed;
+}
+
+
+   /*inazuma*/
+
+
+
+.container1i {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(inazuma.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.container2i {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(ei.png);
+    background-size:cover;
+    background-position: top;  
+    background-attachment: fixed;
+}
+.containeri {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 0;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image:url(inazu.jpg);
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+}
+
+
+   /*sumeru*/
+
+
+
+.container1s {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(sumeru.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.container2s {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(nahida.png);
+    background-size:cover;
+    background-position: top;  
+    background-attachment: fixed;
+}
+.containers {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 0;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image:url(sumeru.jpg);
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+}
+
+
+   /*fontaine*/
+
+
+
+   .container1f {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Fontaine.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.container2f {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(furina.png);
+    background-size:cover;
+    background-position: top;  
+    background-attachment: fixed;
+}
+.containerf {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 0;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image:url(fontaine.jpg);
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+}
+
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: cursive;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8)
+}
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8)
+  }
+
+
+.contentsmrgn
+{
+    margin: 0px;
+    padding: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: larger;
+}
+
+.blank {
+  margin: 0 0;
+  align-items: center;
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+  color: #ffffff;
+}
+
+.second {
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+    font-family: cursive;
+}
+h4{
+    font-weight: 550;
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+.card  {
+  margin-bottom: 2rem;
+  width: 52ch;
+
+}
+
+.item {
+  display:flex;
+  max-width: 320px;
+  background-color: white;;
+  flex-direction:column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;
+}
+
+
+
+/*mons*/
+.img-first {
+  background-image: url(gs.jpg);
+}
+
+.img-second {
+  background-image: url(bm.jpg);
+}
+
+.img-third {
+  background-image: url(wwh.jpg);
+}
+.img-fourth {
+    background-image: url(ds.jpg);
+  }
+.img-fifth {
+    background-image: url(sfv.jpg);
+}
+
+
+
+/*liyue*/
+.img-1l {
+    background-image: url(bp.jpg);
+}
+.img-2l {
+    background-image: url(lisha.jpg);
+}  
+.img-3l {
+    background-image: url(minlin.jpg);
+}
+.img-4l {
+    background-image: url(chasm.jpg);
+}
+.img-5l {
+    background-image: url(cv.jpg);
+}
+.img-6l {
+    background-image: url(soc.jpg);
+}
+
+
+
+/*inazuma*/
+.img-1i {
+    background-image: url(narukami.jpg);
+}
+.img-2i {
+    background-image: url(yashiro.jpg);
+}  
+.img-3i {
+    background-image: url(watatsumi.jpg);
+}
+.img-4i {
+    background-image: url(kannazuka.jpg);
+}
+.img-5i {
+    background-image: url(seirai.jpg);
+}
+.img-6i {
+    background-image: url(enkanomiya.jpg);
+}
+
+
+
+/*sumeru*/
+.img-1s {
+    background-image: url(avidya.jpg);
+}
+.img-2s {
+    background-image: url(ashavan.jpg);
+}  
+.img-3s {
+    background-image: url(ardravi.jpg);
+}
+.img-4s {
+    background-image: url(lokapala.jpg);
+}
+.img-5s {
+    background-image: url(lower.jpg);
+}
+.img-6s {
+    background-image: url(upper.jpg);
+}
+.img-7s {
+    background-image: url(hypostyle.jpg);
+}
+.img-8s {
+    background-image: url(desert.jpg);
+}
+.img-9s {
+    background-image: url(realm.jpg);
+}
+
+
+
+/*fontaine*/
+.img-1f {
+    background-image: url(belleau.jpg);
+}
+.img-2f {
+    background-image: url(liffey.jpg);
+}  
+.img-3f {
+    background-image: url(court.jpg);
+}
+.img-4f {
+    background-image: url(beryl.jpg);
+}
+.img-5f {
+    background-image: url(reaserch.jpg);
+}
+.img-6f {
+    background-image: url(forest.jpg);
+}
+.img-7f {
+    background-image: url(morte.jpg);
+}
+.img-8f {
+    background-image: url(nostoi.jpg);
+}
+.img-9f {
+    background-image: url(sea.jpg);
+}
+
+.second {
+  flex-direction: row;
+  column-gap: 1.6em;
+  row-gap: 0;
+}
+
+
+
+  /*parallex end*/
